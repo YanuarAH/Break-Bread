@@ -72,12 +72,14 @@ body {
     transform: scaleX(1);
 }
 
-.navbar .navbar-extra a {
+.navbar .navbar-extra .btn-navbar {
     color: #ffffff;
     margin: 0 0.5rem;
+    cursor: pointer;
+    background-color: transparent;
 }
 
-.navbar .navbar-extra a:hover {
+.navbar .navbar-extra .btn-navbar:hover {
     color: var(--bg);
 }
 
@@ -369,7 +371,7 @@ footer .credit a {
         border-left: 1px solid #A87C7C;
         width: 20rem;
         height: 100vh;
-        transition: 0.4s;
+        transition: .4s;
     }
 
     .navbar .navbar-nav.active {
